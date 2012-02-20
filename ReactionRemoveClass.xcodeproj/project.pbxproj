@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		03530C7514F0A93C002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530C7414F0A93C002E9A5E /* Cocoa.framework */; };
 		03530C7F14F0A93C002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03530C7D14F0A93C002E9A5E /* InfoPlist.strings */; };
+		03530C8714F0A95C002E9A5E /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530C8614F0A95C002E9A5E /* RSTrixiePlugin.framework */; };
+		03530C8B14F0A97B002E9A5E /* ReactionRemoveClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530C8914F0A97B002E9A5E /* ReactionRemoveClass.h */; };
+		03530C8C14F0A97B002E9A5E /* ReactionRemoveClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530C8A14F0A97B002E9A5E /* ReactionRemoveClass.m */; };
+		03530C8E14F0A98D002E9A5E /* ReactionRemoveClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530C8D14F0A98D002E9A5E /* ReactionRemoveClass.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +21,13 @@
 		03530C7714F0A93C002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		03530C7814F0A93C002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		03530C7914F0A93C002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		03530C7C14F0A93C002E9A5E /* ReactionRemoveClass-Info.plist */ = {isa = PBXFileReference; path = "ReactionRemoveClass-Info.plist"; sourceTree = "<group>"; };
+		03530C7C14F0A93C002E9A5E /* ReactionRemoveClass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactionRemoveClass-Info.plist"; sourceTree = "<group>"; };
 		03530C7E14F0A93C002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03530C8014F0A93C002E9A5E /* ReactionRemoveClass-Prefix.pch */ = {isa = PBXFileReference; path = "ReactionRemoveClass-Prefix.pch"; sourceTree = "<group>"; };
+		03530C8014F0A93C002E9A5E /* ReactionRemoveClass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactionRemoveClass-Prefix.pch"; sourceTree = "<group>"; };
+		03530C8614F0A95C002E9A5E /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug/RSTrixiePlugin.framework"; sourceTree = "<group>"; };
+		03530C8914F0A97B002E9A5E /* ReactionRemoveClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionRemoveClass.h; sourceTree = "<group>"; };
+		03530C8A14F0A97B002E9A5E /* ReactionRemoveClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionRemoveClass.m; sourceTree = "<group>"; };
+		03530C8D14F0A98D002E9A5E /* ReactionRemoveClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactionRemoveClass.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03530C8714F0A95C002E9A5E /* RSTrixiePlugin.framework in Frameworks */,
 				03530C7514F0A93C002E9A5E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +63,7 @@
 		03530C7314F0A93C002E9A5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03530C8614F0A95C002E9A5E /* RSTrixiePlugin.framework */,
 				03530C7414F0A93C002E9A5E /* Cocoa.framework */,
 				03530C7614F0A93C002E9A5E /* Other Frameworks */,
 			);
@@ -74,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				03530C7B14F0A93C002E9A5E /* Supporting Files */,
+				03530C8914F0A97B002E9A5E /* ReactionRemoveClass.h */,
+				03530C8A14F0A97B002E9A5E /* ReactionRemoveClass.m */,
+				03530C8D14F0A98D002E9A5E /* ReactionRemoveClass.xib */,
 			);
 			path = ReactionRemoveClass;
 			sourceTree = "<group>";
@@ -90,6 +103,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		03530C8814F0A963002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530C8B14F0A97B002E9A5E /* ReactionRemoveClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		03530C7014F0A93C002E9A5E /* ReactionRemoveClass */ = {
 			isa = PBXNativeTarget;
@@ -98,6 +122,7 @@
 				03530C6D14F0A93C002E9A5E /* Sources */,
 				03530C6E14F0A93C002E9A5E /* Frameworks */,
 				03530C6F14F0A93C002E9A5E /* Resources */,
+				03530C8814F0A963002E9A5E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -140,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03530C7F14F0A93C002E9A5E /* InfoPlist.strings in Resources */,
+				03530C8E14F0A98D002E9A5E /* ReactionRemoveClass.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03530C8C14F0A97B002E9A5E /* ReactionRemoveClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,10 +244,15 @@
 		03530C8414F0A93C002E9A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactionRemoveClass/ReactionRemoveClass-Prefix.pch";
 				INFOPLIST_FILE = "ReactionRemoveClass/ReactionRemoveClass-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -229,10 +261,15 @@
 		03530C8514F0A93C002E9A5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactionRemoveClass/ReactionRemoveClass-Prefix.pch";
 				INFOPLIST_FILE = "ReactionRemoveClass/ReactionRemoveClass-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -257,6 +294,7 @@
 				03530C8514F0A93C002E9A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
