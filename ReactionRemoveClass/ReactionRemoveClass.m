@@ -25,6 +25,10 @@
 	return YES;
 }
 
+- (NSString *) reactionBehaviour {
+	return [NSString stringWithFormat:@".removeClass('%@')",[removeClassField stringValue]];
+}
+
 - (NSString *) callbackFunction {
 	
 	NSString * myFunc = @"";
@@ -34,7 +38,7 @@
 	else {
 		myFunc = [myFunc stringByAppendingFormat:@"$('%@')", [[self selectorField] stringValue]];
 	}
-	myFunc = [myFunc stringByAppendingFormat:@".removeClass('%@')",[removeClassField stringValue]];
+	myFunc = [myFunc stringByAppendingString:[self reactionBehaviour]];
 	
 	return [NSString stringWithFormat:@"function(event,elem){%@}", myFunc];
 }
