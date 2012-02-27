@@ -10,37 +10,19 @@
 
 @implementation ReactionRemoveClass
 
-@synthesize removeClassField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setName: @"Remove Class"];
+		[self setPluginName: @"Remove Class"];
     }
     return self;
 }
 
-- (BOOL) hasSelectorField {
-	return YES;
+- (NSString *) callback {
+	return [NSString stringWithFormat:@"$('%@').removeClass('%@')",[[self targetField] stringValue],[[self deltaField] stringValue]];
 }
 
-- (NSString *) reactionBehaviour {
-	return [NSString stringWithFormat:@".removeClass('%@')",[removeClassField stringValue]];
-}
-
-- (NSString *) callbackFunction {
-	
-	NSString * myFunc = @"";
-	if( [[[self selectorField] stringValue] isEqualToString:@"this"] ) {
-		myFunc = @"$(this)";
-	}
-	else {
-		myFunc = [myFunc stringByAppendingFormat:@"$('%@')", [[self selectorField] stringValue]];
-	}
-	myFunc = [myFunc stringByAppendingString:[self reactionBehaviour]];
-	
-	return [NSString stringWithFormat:@"function(event,elem){%@}", myFunc];
-}
 
 @end
