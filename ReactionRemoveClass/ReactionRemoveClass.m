@@ -16,12 +16,13 @@
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
 		[self setPluginName: @"Remove Class"];
+		[self setAction:@"removeClass"];
     }
     return self;
 }
 
 - (NSString *) callback {
-	return [NSString stringWithFormat:@"$('%@').removeClass('%@')",[[self targetField] stringValue],[[self deltaField] stringValue]];
+	return [NSString stringWithFormat:@"$('%@').%@('%@');",[[self targetField] stringValue],[self action],[[self deltaField] stringValue]];
 }
 
 
