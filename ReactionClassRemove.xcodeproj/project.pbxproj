@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03530C7514F0A93C002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530C7414F0A93C002E9A5E /* Cocoa.framework */; };
+		03530C7F14F0A93C002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03530C7D14F0A93C002E9A5E /* InfoPlist.strings */; };
+		03530C8714F0A95C002E9A5E /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530C8614F0A95C002E9A5E /* RSTrixiePlugin.framework */; };
+		03530C8B14F0A97B002E9A5E /* ReactionClassRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530C8914F0A97B002E9A5E /* ReactionClassRemove.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03530C8C14F0A97B002E9A5E /* ReactionClassRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530C8A14F0A97B002E9A5E /* ReactionClassRemove.m */; };
+		03530C8E14F0A98D002E9A5E /* ReactionClassRemove.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530C8D14F0A98D002E9A5E /* ReactionClassRemove.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03530C7114F0A93C002E9A5E /* ReactionClassRemove.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionClassRemove.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03530C7414F0A93C002E9A5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03530C7714F0A93C002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03530C7814F0A93C002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03530C7914F0A93C002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03530C7C14F0A93C002E9A5E /* ReactionClassRemove-Info.plist */ = {isa = PBXFileReference; path = "ReactionClassRemove-Info.plist"; sourceTree = "<group>"; };
+		03530C7E14F0A93C002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03530C8014F0A93C002E9A5E /* ReactionClassRemove-Prefix.pch */ = {isa = PBXFileReference; path = "ReactionClassRemove-Prefix.pch"; sourceTree = "<group>"; };
+		03530C8614F0A95C002E9A5E /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug/RSTrixiePlugin.framework"; sourceTree = "<group>"; };
+		03530C8914F0A97B002E9A5E /* ReactionClassRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionClassRemove.h; sourceTree = "<group>"; };
+		03530C8A14F0A97B002E9A5E /* ReactionClassRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionClassRemove.m; sourceTree = "<group>"; };
+		03530C8D14F0A98D002E9A5E /* ReactionClassRemove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactionClassRemove.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03530C6E14F0A93C002E9A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530C8714F0A95C002E9A5E /* RSTrixiePlugin.framework in Frameworks */,
+				03530C7514F0A93C002E9A5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03530C6614F0A93C002E9A5E = {
+			isa = PBXGroup;
+			children = (
+				03530C7A14F0A93C002E9A5E /* ReactionClassRemove */,
+				03530C7314F0A93C002E9A5E /* Frameworks */,
+				03530C7214F0A93C002E9A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03530C7214F0A93C002E9A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03530C7114F0A93C002E9A5E /* ReactionClassRemove.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03530C7314F0A93C002E9A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03530C8614F0A95C002E9A5E /* RSTrixiePlugin.framework */,
+				03530C7414F0A93C002E9A5E /* Cocoa.framework */,
+				03530C7614F0A93C002E9A5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03530C7614F0A93C002E9A5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03530C7714F0A93C002E9A5E /* AppKit.framework */,
+				03530C7814F0A93C002E9A5E /* CoreData.framework */,
+				03530C7914F0A93C002E9A5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03530C7A14F0A93C002E9A5E /* ReactionClassRemove */ = {
+			isa = PBXGroup;
+			children = (
+				03530C7B14F0A93C002E9A5E /* Supporting Files */,
+				03530C8914F0A97B002E9A5E /* ReactionClassRemove.h */,
+				03530C8A14F0A97B002E9A5E /* ReactionClassRemove.m */,
+				03530C8D14F0A98D002E9A5E /* ReactionClassRemove.xib */,
+			);
+			name = ReactionClassRemove;
+			path = ReactionRemoveClass;
+			sourceTree = "<group>";
+		};
+		03530C7B14F0A93C002E9A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03530C7C14F0A93C002E9A5E /* ReactionClassRemove-Info.plist */,
+				03530C7D14F0A93C002E9A5E /* InfoPlist.strings */,
+				03530C8014F0A93C002E9A5E /* ReactionClassRemove-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03530C8814F0A963002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530C8B14F0A97B002E9A5E /* ReactionClassRemove.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03530C7014F0A93C002E9A5E /* ReactionClassRemove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03530C8314F0A93C002E9A5E /* Build configuration list for PBXNativeTarget "ReactionClassRemove" */;
+			buildPhases = (
+				03530C6D14F0A93C002E9A5E /* Sources */,
+				03530C6E14F0A93C002E9A5E /* Frameworks */,
+				03530C6F14F0A93C002E9A5E /* Resources */,
+				03530C8814F0A963002E9A5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactionClassRemove;
+			productName = ReactionRemoveClass;
+			productReference = 03530C7114F0A93C002E9A5E /* ReactionClassRemove.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03530C6814F0A93C002E9A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 03530C6B14F0A93C002E9A5E /* Build configuration list for PBXProject "ReactionClassRemove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03530C6614F0A93C002E9A5E;
+			productRefGroup = 03530C7214F0A93C002E9A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03530C7014F0A93C002E9A5E /* ReactionClassRemove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03530C6F14F0A93C002E9A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530C7F14F0A93C002E9A5E /* InfoPlist.strings in Resources */,
+				03530C8E14F0A98D002E9A5E /* ReactionClassRemove.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03530C6D14F0A93C002E9A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530C8C14F0A97B002E9A5E /* ReactionClassRemove.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03530C7D14F0A93C002E9A5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03530C7E14F0A93C002E9A5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03530C8114F0A93C002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03530C8214F0A93C002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03530C8414F0A93C002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionRemoveClass/ReactionClassRemove-Prefix.pch";
+				INFOPLIST_FILE = "ReactionRemoveClass/ReactionClassRemove-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = ReactionClassRemove;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03530C8514F0A93C002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionRemoveClass/ReactionClassRemove-Prefix.pch";
+				INFOPLIST_FILE = "ReactionRemoveClass/ReactionClassRemove-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = ReactionClassRemove;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03530C6B14F0A93C002E9A5E /* Build configuration list for PBXProject "ReactionClassRemove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530C8114F0A93C002E9A5E /* Debug */,
+				03530C8214F0A93C002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03530C8314F0A93C002E9A5E /* Build configuration list for PBXNativeTarget "ReactionClassRemove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530C8414F0A93C002E9A5E /* Debug */,
+				03530C8514F0A93C002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03530C6814F0A93C002E9A5E /* Project object */;
+}
